@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+#navbar
+   {
+    
+   }
+
+  #logo
+  {
+    font-size:36px;
+    font-weight:700;
+    color:black;
+    text-shadow:0px 1px 1px black;
+    margine-top:0px;
+    margin-botom: 2px;
+    
+  }
+ #logo span{
+      color:#E74C3C;
+    }
+ 
+/************************************css for navbar******************************/
+
+  .menu
+     {
+       padding-top=0px;
+       font-family: 'arial';
+     
+       font-size:18px;
+       font-weight:300;
+       text-shadow:0px 1px 1px red;
+       
+     }
+
+  .navbar-nav{
+      margine-left:20px;
+     }
+    .menu a
+  {
+     text-decoration:none;
+     color:black;
+  }
+ 
+   .menu a:hover
+   {
+     text-decoration:none;
+     color:black;
+     font-weight:bold;
+  }
+
+
+
+/********CSS Code for Heading Title**********/ 
+
+ .heading-title 
+   {
+     padding-bottom: 40px;
+     text-align:center;
+   } 
+
+ .heading-title h2 
+  {
+     font-size: 14px;
+     font-weight: 500;
+     padding: 0;
+     line-height: 1px;
+     margin: 0 0 5px 0;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     color: #aaaaaa;
+     font-family: sans-serif;
+  }
+
+.heading-title h2::before 
+  {
+     content: "";
+     width: 120px;
+     height: 1px;  
+     display: inline-block;
+     
+     background:#E74C3C ;
+     margin: 4px 10px; 
+  }
+
+.heading-title h2::after 
+  {
+     content: "";
+     width: 120px;
+     height: 1px;  
+     display: inline-block;
+     background: #E74C3C;
+     margin: 4px 10px; 
+  }
+
+.heading-title p 
+  {
+     margin-left: 0;
+     font-size: 36px;
+     font-weight: 700;
+     text-transform: uppercase;
+     font-family: sans-serif;
+     color:  #E74C3C;
+   }
+
+
+ /******** For Button **********/ 
+
+ .redBtn
+  {
+     background-color:#F96955 ;
+     color:white;
+     border-radius: 50px; 
+
+     padding-left: 25px;
+     padding-right: 25px;
+     margin-left: 10px;
+ 
+ } 
+
+/************************************css for card*************************************/
+
+   #card{
+       border-color:#E74C3C;
+       
+       box-shadow:0px 0px 10px #E74C3C;
+        }
+
+     .checked{
+              color:#F4D03F;
+             }
+
+/**************************************** css for overlay*********************************/
+
+  .overlay{
+      text-align:center;
+      color:white;
+      margine:auto;
+      padding-top:500px;
+      border-radius:5px;
+   } 
+
+  .overlay h5{
+       text-transform: uppercase;
+     color: #aaaaaa;
+             }
+/*******************************************css for Gallery*******************************/
+
+
+  .Gallery{
+            margine:auto;
+            padding:2px;
+          }
+
+
+ 
+
+/********************************css for service*****************************************/
+ #facBlock .card:hover
+   {
+       background-color:black;
+       
+       color:white;
+       border-radius:10px;
+       border:none;
+       box-shadow: 5px 5px 10px #9e9e9e;
+   }
+/********************************css for footer*****************************/
+
+  #footer{
+        padding-top:20px;
+        text-align:center;
+        background-color:#DCD9D8;
+         }
+
+footer a
+  {
+     text-decoration:none;
+     
+  }
+ 
+ footer a:hover
+   {
+     text-decoration:none;
+     color: black;
+     font-weight:bold;
+  }
+
+
+   
+
+
+
+
